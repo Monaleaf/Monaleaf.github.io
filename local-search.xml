@@ -5,6 +5,19 @@
   
   <entry>
     <title>前端学习</title>
+    <link href="/2022/10/11/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0-1/"/>
+    <url>/2022/10/11/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0-1/</url>
+    
+    <content type="html"><![CDATA[<h1 id="html基础（二）"><a href="#html基础（二）" class="headerlink" title="html基础（二）"></a>html基础（二）</h1><h3 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h3><ul><li><p>绝对路径（不常用）</p><blockquote><p>1、从盘符开始（windows有盘符） 2、完整的网址</p></blockquote></li><li><p>相对路径：从当前文件开始找目标文件</p></li></ul><hr><h3 id="图片标签"><a href="#图片标签" class="headerlink" title="图片标签"></a>图片标签</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;图片路径&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;若图片加载实在，则显示此内容&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;&quot;</span>&gt;</span><br></code></pre></td></tr></table></figure><ul><li>width 与 height:若只设置一个，则另外一个便会等比例缩小</li></ul><hr><h3 id="音频标签"><a href="#音频标签" class="headerlink" title="音频标签"></a>音频标签</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">audio</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;音频路径&quot;</span> <span class="hljs-attr">controls</span> <span class="hljs-attr">autoplay</span> <span class="hljs-attr">loop</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">audio</span>&gt;</span><br></code></pre></td></tr></table></figure><ul><li>controls:显示音频播放的控件</li><li>autoplay:自动播放（部分浏览器不支持）</li><li>loop:循环播放</li></ul><hr><h3 id="视频标签"><a href="#视频标签" class="headerlink" title="视频标签"></a>视频标签</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">video</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;路径&quot;</span> <span class="hljs-attr">controls</span> <span class="hljs-attr">autoplay</span> <span class="hljs-attr">loop</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">video</span>&gt;</span><br></code></pre></td></tr></table></figure><ul><li>属性作用和音频标签的属性差不多</li><li>autoplay:自动播放，谷歌与Edge浏览器要搭配 mutec 才可播放，且为静音播放</li></ul><hr><h3 id="超链接标签"><a href="#超链接标签" class="headerlink" title="超链接标签"></a>超链接标签</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;跳转路径&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;_blank/_self/#&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><br></code></pre></td></tr></table></figure><ul><li>_blank:在新窗口跳转</li><li>_self:在当前页面跳转</li><li>‘#’：空链接</li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>前端学习</title>
     <link href="/2022/10/10/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/"/>
     <url>/2022/10/10/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/</url>
     
